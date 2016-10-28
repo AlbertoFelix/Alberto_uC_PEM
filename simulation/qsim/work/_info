@@ -1,0 +1,178 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/alberto/PEM/Somador/simulation/qsim
+vContador_Programa
+Z1 !s110 1477597671
+!i10b 1
+!s100 M8_AIQzg<H2U9ckXkPGoc2
+Iz`m1IjkAIhg7g2UNRAJ?j3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1477597670
+8Contador_Programa.vo
+FContador_Programa.vo
+Z3 L0 32
+Z4 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z5 !s108 1477597671.000000
+!s107 Contador_Programa.vo|
+!s90 -work|work|Contador_Programa.vo|
+!i113 1
+Z6 o-work work
+n@contador_@programa
+vContador_Programa_vlg_vec_tst
+R1
+!i10b 1
+!s100 M@S8Q4m17nLVAIg?A;Ygm0
+I;b6?afzCPH9dKS81bR;aN1
+R2
+R0
+w1477597669
+8tb_Contador_Programa.vwf.vt
+Ftb_Contador_Programa.vwf.vt
+Z7 L0 30
+R4
+r1
+!s85 0
+31
+R5
+!s107 tb_Contador_Programa.vwf.vt|
+!s90 -work|work|tb_Contador_Programa.vwf.vt|
+!i113 1
+R6
+n@contador_@programa_vlg_vec_tst
+vMeio_Somador
+Z8 !s110 1477569708
+!i10b 1
+!s100 zT7HidIni1P[SmD_IVnzk1
+I=[BFmh3`8VzlDC^0^7:Yk1
+R2
+R0
+w1477569705
+8Meio_Somador.vo
+FMeio_Somador.vo
+R3
+R4
+r1
+!s85 0
+31
+Z9 !s108 1477569708.000000
+!s107 Meio_Somador.vo|
+!s90 -work|work|Meio_Somador.vo|
+!i113 1
+R6
+n@meio_@somador
+vMeio_Somador_vlg_vec_tst
+R8
+!i10b 1
+!s100 bi7MikMXeEIVb6aKUQK^g3
+IVM?FK57a=Q[57UOca=Y7^2
+R2
+R0
+w1477569703
+8tb_Meio_Somador.vwf.vt
+Ftb_Meio_Somador.vwf.vt
+R7
+R4
+r1
+!s85 0
+31
+R9
+!s107 tb_Meio_Somador.vwf.vt|
+!s90 -work|work|tb_Meio_Somador.vwf.vt|
+!i113 1
+R6
+n@meio_@somador_vlg_vec_tst
+vSomador_4_Bits
+Z10 !s110 1477593969
+!i10b 1
+!s100 f=]d7FQ_FF70X2aa=A9nU0
+IE=KGVVT`6j9I^nUA5c4fJ1
+R2
+R0
+w1477593968
+8Somador_4_Bits.vo
+FSomador_4_Bits.vo
+R3
+R4
+r1
+!s85 0
+31
+Z11 !s108 1477593969.000000
+!s107 Somador_4_Bits.vo|
+!s90 -work|work|Somador_4_Bits.vo|
+!i113 1
+R6
+n@somador_4_@bits
+vSomador_4_Bits_vlg_vec_tst
+R10
+!i10b 1
+!s100 5Y5bHnfI4o7UezW4[fXV;3
+ILWFNLF3G5>XM1ZGTH7Pb<0
+R2
+R0
+w1477593967
+8tb_Somador.vwf.vt
+Ftb_Somador.vwf.vt
+R7
+R4
+r1
+!s85 0
+31
+R11
+!s107 tb_Somador.vwf.vt|
+!s90 -work|work|tb_Somador.vwf.vt|
+!i113 1
+R6
+n@somador_4_@bits_vlg_vec_tst
+vSomador_Completo
+Z12 !s110 1477574645
+!i10b 1
+!s100 I9<9`jEAEXJQg[JX:ehRh0
+IXJ:i6`2N<aRQQMM064NXo0
+R2
+R0
+w1477574642
+8Somador_Completo.vo
+FSomador_Completo.vo
+R3
+R4
+r1
+!s85 0
+31
+Z13 !s108 1477574645.000000
+!s107 Somador_Completo.vo|
+!s90 -work|work|Somador_Completo.vo|
+!i113 1
+R6
+n@somador_@completo
+vSomador_Completo_vlg_vec_tst
+R12
+!i10b 1
+!s100 hOPgm9:J1WPoRgP1PA4IU3
+IWhNNZmzFK3>fGB`IfHUeg3
+R2
+R0
+w1477574641
+8tb_Somador_Completo.vwf.vt
+Ftb_Somador_Completo.vwf.vt
+R7
+R4
+r1
+!s85 0
+31
+R13
+!s107 tb_Somador_Completo.vwf.vt|
+!s90 -work|work|tb_Somador_Completo.vwf.vt|
+!i113 1
+R6
+n@somador_@completo_vlg_vec_tst

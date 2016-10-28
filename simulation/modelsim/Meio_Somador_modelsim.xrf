@@ -1,0 +1,8 @@
+vendor_name = ModelSim
+source_file = 1, /home/alberto/PEM/Somador/Meio_Somador.bdf
+source_file = 1, /home/alberto/PEM/Somador/db/Meio_Somador.cbx.xml
+design_name = Meio_Somador
+instance = comp, \S~output , S~output, Meio_Somador, 1
+instance = comp, \C~output , C~output, Meio_Somador, 1
+instance = comp, \X~input , X~input, Meio_Somador, 1
+instance = comp, \Y~input , Y~input, Meio_Somador, 1

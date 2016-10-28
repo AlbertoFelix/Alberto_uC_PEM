@@ -1,0 +1,41 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "S_Cp[0]",
+					"strict" : false
+				},
+				{
+					"name" : "S_Cp[1]",
+					"strict" : false
+				},
+				{
+					"name" : "S_Cp[2]",
+					"strict" : false
+				},
+				{
+					"name" : "S_Cp[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Ep",
+					"strict" : false
+				},
+				{
+					"name" : "CLKN",
+					"strict" : false
+				},
+				{
+					"name" : "CLRN",
+					"strict" : false
+				},
+				{
+					"name" : "Cp",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

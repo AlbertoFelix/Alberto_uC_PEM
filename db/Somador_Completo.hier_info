@@ -1,0 +1,26 @@
+|Somador_Completo
+S <= Meio_Somador:inst1.S
+cin => Meio_Somador:inst1.X
+X => Meio_Somador:inst.X
+Y => Meio_Somador:inst.Y
+cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Somador_Completo|Meio_Somador:inst1
+S <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+X => inst2.IN0
+X => inst.IN0
+Y => inst2.IN1
+Y => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Somador_Completo|Meio_Somador:inst
+S <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+X => inst2.IN0
+X => inst.IN0
+Y => inst2.IN1
+Y => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
