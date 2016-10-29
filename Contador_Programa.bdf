@@ -572,6 +572,21 @@ agreement for further details.
 	)
 	(rotate270)
 )
+(symbol
+	(rect 64 0 96 16)
+	(text "VCC" (rect 7 0 31 10)(font "Arial" (font_size 6)))
+	(text "inst12" (rect 3 5 52 16)(font "Liberation Sans" )(invisible))
+	(port
+		(pt 16 16)
+		(output)
+		(text "1" (rect 19 7 24 19)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 19 7 24 19)(font "Courier New" (bold))(invisible))
+		(line (pt 16 16)(pt 16 8))
+	)
+	(drawing
+		(line (pt 8 8)(pt 24 8))
+	)
+)
 (connector
 	(pt 112 72)
 	(pt 120 72)
@@ -633,28 +648,8 @@ agreement for further details.
 	(pt 560 88)
 )
 (connector
-	(pt 544 72)
-	(pt 552 72)
-)
-(connector
 	(pt 552 104)
 	(pt 544 104)
-)
-(connector
-	(pt 560 -16)
-	(pt 552 -16)
-)
-(connector
-	(pt 552 -16)
-	(pt 392 -16)
-)
-(connector
-	(pt 552 -16)
-	(pt 552 72)
-)
-(connector
-	(pt 552 72)
-	(pt 552 104)
 )
 (connector
 	(pt 432 72)
@@ -809,12 +804,63 @@ agreement for further details.
 	(pt 304 304)
 	(pt 304 216)
 )
+(connector
+	(pt 552 72)
+	(pt 552 104)
+)
+(connector
+	(pt 544 72)
+	(pt 552 72)
+)
+(connector
+	(pt 552 72)
+	(pt 568 72)
+)
+(connector
+	(pt 392 -16)
+	(pt 560 -16)
+)
+(connector
+	(pt 560 -16)
+	(pt 568 -16)
+)
+(connector
+	(pt 568 -16)
+	(pt 568 72)
+)
+(connector
+	(pt 512 48)
+	(pt 512 16)
+)
+(connector
+	(pt 80 48)
+	(pt 80 16)
+)
+(connector
+	(pt 216 48)
+	(pt 216 16)
+)
+(connector
+	(pt 216 16)
+	(pt 80 16)
+)
+(connector
+	(pt 352 48)
+	(pt 352 16)
+)
+(connector
+	(pt 512 16)
+	(pt 352 16)
+)
+(connector
+	(pt 352 16)
+	(pt 216 16)
+)
 (junction (pt 120 72))
 (junction (pt 256 -16))
 (junction (pt 256 72))
 (junction (pt 392 -16))
 (junction (pt 392 72))
-(junction (pt 552 -16))
 (junction (pt 552 72))
 (junction (pt 216 144))
 (junction (pt 352 144))
@@ -825,3 +871,7 @@ agreement for further details.
 (junction (pt 464 72))
 (junction (pt 304 72))
 (junction (pt 176 72))
+(junction (pt 560 -16))
+(junction (pt 80 16))
+(junction (pt 216 16))
+(junction (pt 352 16))
