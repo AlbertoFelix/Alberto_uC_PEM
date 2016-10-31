@@ -40,7 +40,7 @@ agreement for further details.
 	(input)
 	(rect 24 64 192 80)
 	(text "INPUT" (rect 125 0 166 10)(font "Arial" (font_size 6)))
-	(text "Ad[4..0]" (rect 5 0 72 11)(font "Arial" ))
+	(text "Ad[4..0]" (rect 5 0 71 11)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -138,7 +138,7 @@ agreement for further details.
 	(rotate270)
 )
 (symbol
-	(rect 568 216 600 248)
+	(rect 576 208 608 240)
 	(text "GND" (rect 8 16 32 26)(font "Arial" (font_size 6)))
 	(text "inst4" (rect 3 21 44 32)(font "Liberation Sans" )(invisible))
 	(port
@@ -385,16 +385,8 @@ agreement for further details.
 	)
 )
 (connector
-	(pt 584 216)
-	(pt 584 184)
-)
-(connector
 	(pt 504 208)
 	(pt 504 184)
-)
-(connector
-	(pt 504 184)
-	(pt 584 184)
 )
 (connector
 	(pt 488 336)
@@ -494,4 +486,12 @@ agreement for further details.
 (connector
 	(pt 192 152)
 	(pt 248 152)
+)
+(connector
+	(pt 592 184)
+	(pt 592 208)
+)
+(connector
+	(pt 504 184)
+	(pt 592 184)
 )
