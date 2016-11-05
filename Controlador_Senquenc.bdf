@@ -70,6 +70,22 @@ agreement for further details.
 	(flipy)
 	(text "VCC" (rect 16 7 40 17)(font "Arial" (font_size 6)))
 )
+(pin
+	(output)
+	(rect 808 504 1003 520)
+	(text "OUTPUT" (rect 1 0 50 10)(font "Arial" (font_size 6)))
+	(text "S_CON[11..0]" (rect 90 0 189 11)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
 (symbol
 	(rect 304 16 336 64)
 	(text "NOT" (rect 22 1 32 25)(font "Arial" (font_size 6))(vertical))
@@ -1529,6 +1545,76 @@ agreement for further details.
 	)
 	(rotate270)
 )
+(symbol
+	(rect 664 336 712 400)
+	(text "BOR3" (rect 38 1 48 34)(font "Arial" (font_size 6))(vertical))
+	(text "inst45" (rect 0 3 11 52)(font "Liberation Sans" )(vertical))
+	(port
+		(pt 32 0)
+		(input)
+		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
+		(text "IN1" (rect 29 2 41 19)(font "Courier New" (bold))(vertical)(invisible))
+		(line (pt 32 0)(pt 32 8))
+	)
+	(port
+		(pt 24 0)
+		(input)
+		(text "IN2" (rect 2 15 19 27)(font "Courier New" (bold))(invisible))
+		(text "IN2" (rect 21 2 33 19)(font "Courier New" (bold))(vertical)(invisible))
+		(line (pt 24 0)(pt 24 11))
+	)
+	(port
+		(pt 16 0)
+		(input)
+		(text "IN3" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
+		(text "IN3" (rect 13 2 25 19)(font "Courier New" (bold))(vertical)(invisible))
+		(line (pt 16 0)(pt 16 8))
+	)
+	(port
+		(pt 24 64)
+		(output)
+		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 21 48 33 65)(font "Courier New" (bold))(vertical)(invisible))
+		(line (pt 24 50)(pt 24 64))
+	)
+	(drawing
+		(line (pt 35 14)(pt 35 25))
+		(line (pt 12 14)(pt 12 25))
+		(arc (pt 19 8)(pt 29 8)(rect 7 -13 40 20))
+		(arc (pt 24 50)(pt 35 25)(rect -32 -8 35 59))
+		(arc (pt 13 25)(pt 24 50)(rect 12 -8 79 59))
+		(circle (rect 28 8 36 16))
+		(circle (rect 20 11 28 19))
+		(circle (rect 12 8 20 16))
+	)
+	(rotate270)
+)
+(symbol
+	(rect 672 400 704 448)
+	(text "NOT" (rect 0 1 10 25)(font "Arial" (font_size 6))(vertical))
+	(text "inst46" (rect 21 3 32 52)(font "Liberation Sans" )(vertical))
+	(port
+		(pt 16 0)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 7 2 19 13)(font "Courier New" (bold))(vertical)(invisible))
+		(line (pt 16 0)(pt 16 13))
+	)
+	(port
+		(pt 16 48)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 7 32 19 49)(font "Courier New" (bold))(vertical)(invisible))
+		(line (pt 16 39)(pt 16 48))
+	)
+	(drawing
+		(line (pt 25 13)(pt 7 13))
+		(line (pt 7 13)(pt 16 31))
+		(line (pt 25 13)(pt 16 31))
+		(circle (rect 12 31 20 39))
+	)
+	(flipy_rotate90)
+)
 (connector
 	(pt 184 40)
 	(pt 224 40)
@@ -2185,7 +2271,7 @@ agreement for further details.
 	(pt 856 190)
 )
 (connector
-	(text "S_CON[4]" (rect 829 353 840 419)(font "Liberation Sans" )(vertical))
+	(text "S_CON[4]" (rect 828 352 839 418)(font "Liberation Sans" )(vertical))
 	(pt 848 390)
 	(pt 848 392)
 )
@@ -2197,26 +2283,6 @@ agreement for further details.
 (connector
 	(pt 848 344)
 	(pt 848 352)
-)
-(connector
-	(pt 616 294)
-	(pt 616 296)
-)
-(connector
-	(pt 616 296)
-	(pt 616 312)
-)
-(connector
-	(pt 680 296)
-	(pt 680 304)
-)
-(connector
-	(pt 672 224)
-	(pt 672 232)
-)
-(connector
-	(pt 736 184)
-	(pt 736 232)
 )
 (connector
 	(pt 688 208)
@@ -2234,6 +2300,68 @@ agreement for further details.
 	(text "T[6]" (rect 736 194 747 227)(font "Liberation Sans" )(vertical))
 	(pt 752 208)
 	(pt 752 232)
+)
+(connector
+	(text "SUB" (rect 720 201 731 225)(font "Liberation Sans" )(vertical))
+	(pt 736 184)
+	(pt 736 232)
+)
+(connector
+	(text "ADD" (rect 656 201 667 225)(font "Liberation Sans" )(vertical))
+	(pt 672 208)
+	(pt 672 232)
+)
+(connector
+	(text "T[5]" (rect 608 194 619 227)(font "Liberation Sans" )(vertical))
+	(pt 624 232)
+	(pt 624 184)
+)
+(connector
+	(text "LDA" (rect 592 201 603 225)(font "Liberation Sans" )(vertical))
+	(pt 608 232)
+	(pt 608 200)
+)
+(connector
+	(pt 616 336)
+	(pt 680 336)
+)
+(connector
+	(pt 680 328)
+	(pt 688 328)
+)
+(connector
+	(pt 680 296)
+	(pt 680 328)
+)
+(connector
+	(pt 688 328)
+	(pt 688 336)
+)
+(connector
+	(pt 744 296)
+	(pt 696 296)
+)
+(connector
+	(pt 696 296)
+	(pt 696 336)
+)
+(connector
+	(pt 616 294)
+	(pt 616 296)
+)
+(connector
+	(pt 616 296)
+	(pt 616 336)
+)
+(connector
+	(text "S_CON[5]" (rect 672 414 683 480)(font "Liberation Sans" )(vertical))
+	(pt 688 448)
+	(pt 688 480)
+)
+(connector
+	(pt 808 512)
+	(pt 760 512)
+	(bus)
 )
 (junction (pt 928 16))
 (junction (pt 768 16))
@@ -2260,5 +2388,5 @@ agreement for further details.
 (junction (pt 1096 208))
 (junction (pt 848 288))
 (junction (pt 848 392))
-(junction (pt 616 296))
 (junction (pt 752 208))
+(junction (pt 616 296))
