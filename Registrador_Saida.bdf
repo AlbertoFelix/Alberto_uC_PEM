@@ -1,0 +1,535 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "graphic" (version "1.4"))
+(pin
+	(input)
+	(rect -168 328 0 344)
+	(text "INPUT" (rect 125 0 166 10)(font "Arial" (font_size 6)))
+	(text "CLK" (rect 5 0 30 11)(font "Liberation Sans" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 152 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect -160 24 8 40)
+	(text "INPUT" (rect 125 0 166 10)(font "Arial" (font_size 6)))
+	(text "LoN" (rect 5 0 30 11)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 152 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect -160 0 16 16)
+	(text "INPUT" (rect 133 0 174 10)(font "Arial" (font_size 6)))
+	(text "E_Rs[7..0]" (rect 5 0 88 11)(font "Arial" ))
+	(pt 176 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12))
+		(line (pt 92 4)(pt 117 4))
+		(line (pt 121 8)(pt 176 8))
+		(line (pt 92 12)(pt 92 4))
+		(line (pt 117 4)(pt 121 8))
+		(line (pt 117 12)(pt 121 8))
+	)
+	(text "VCC" (rect 136 7 160 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(output)
+	(rect 416 0 594 16)
+	(text "OUTPUT" (rect 1 0 50 10)(font "Arial" (font_size 6)))
+	(text "S_Rs[7..0]" (rect 90 0 172 11)(font "Liberation Sans" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(symbol
+	(rect 80 64 200 288)
+	(text "Ci74LS173" (rect 5 0 100 14)(font "Liberation Sans" (font_size 8)))
+	(text "inst" (rect 8 209 41 220)(font "Liberation Sans" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "e1N" (rect 0 0 31 14)(font "Liberation Sans" (font_size 8)))
+		(text "e1N" (rect 21 27 52 41)(font "Liberation Sans" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "e2N" (rect 0 0 31 14)(font "Liberation Sans" (font_size 8)))
+		(text "e2N" (rect 21 43 52 57)(font "Liberation Sans" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "e14" (rect 0 0 31 14)(font "Liberation Sans" (font_size 8)))
+		(text "e14" (rect 21 59 52 73)(font "Liberation Sans" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "e13" (rect 0 0 31 14)(font "Liberation Sans" (font_size 8)))
+		(text "e13" (rect 21 75 52 89)(font "Liberation Sans" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "e9N" (rect 0 0 31 14)(font "Liberation Sans" (font_size 8)))
+		(text "e9N" (rect 21 91 52 105)(font "Liberation Sans" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "e10N" (rect 0 0 42 14)(font "Liberation Sans" (font_size 8)))
+		(text "e10N" (rect 21 107 63 121)(font "Liberation Sans" (font_size 8)))
+		(line (pt 0 112)(pt 16 112))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "e12" (rect 0 0 31 14)(font "Liberation Sans" (font_size 8)))
+		(text "e12" (rect 21 123 52 137)(font "Liberation Sans" (font_size 8)))
+		(line (pt 0 128)(pt 16 128))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "e11" (rect 0 0 31 14)(font "Liberation Sans" (font_size 8)))
+		(text "e11" (rect 21 139 52 153)(font "Liberation Sans" (font_size 8)))
+		(line (pt 0 144)(pt 16 144))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "CLK" (rect 0 0 31 14)(font "Liberation Sans" (font_size 8)))
+		(text "CLK" (rect 21 155 52 169)(font "Liberation Sans" (font_size 8)))
+		(line (pt 0 160)(pt 16 160))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "CLR" (rect 0 0 31 14)(font "Liberation Sans" (font_size 8)))
+		(text "CLR" (rect 21 171 52 185)(font "Liberation Sans" (font_size 8)))
+		(line (pt 0 176)(pt 16 176))
+	)
+	(port
+		(pt 120 32)
+		(output)
+		(text "s3" (rect 0 0 21 14)(font "Liberation Sans" (font_size 8)))
+		(text "s3" (rect 78 27 99 41)(font "Liberation Sans" (font_size 8)))
+		(line (pt 120 32)(pt 104 32))
+	)
+	(port
+		(pt 120 48)
+		(output)
+		(text "s4" (rect 0 0 21 14)(font "Liberation Sans" (font_size 8)))
+		(text "s4" (rect 78 43 99 57)(font "Liberation Sans" (font_size 8)))
+		(line (pt 120 48)(pt 104 48))
+	)
+	(port
+		(pt 120 64)
+		(output)
+		(text "s5" (rect 0 0 21 14)(font "Liberation Sans" (font_size 8)))
+		(text "s5" (rect 78 59 99 73)(font "Liberation Sans" (font_size 8)))
+		(line (pt 120 64)(pt 104 64))
+	)
+	(port
+		(pt 120 80)
+		(output)
+		(text "s6" (rect 0 0 21 14)(font "Liberation Sans" (font_size 8)))
+		(text "s6" (rect 78 75 99 89)(font "Liberation Sans" (font_size 8)))
+		(line (pt 120 80)(pt 104 80))
+	)
+	(drawing
+		(rectangle (rect 16 16 104 208))
+	)
+)
+(symbol
+	(rect 344 64 464 288)
+	(text "Ci74LS173" (rect 5 0 100 14)(font "Liberation Sans" (font_size 8)))
+	(text "inst1" (rect 8 209 49 220)(font "Liberation Sans" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "e1N" (rect 0 0 31 14)(font "Liberation Sans" (font_size 8)))
+		(text "e1N" (rect 21 27 52 41)(font "Liberation Sans" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "e2N" (rect 0 0 31 14)(font "Liberation Sans" (font_size 8)))
+		(text "e2N" (rect 21 43 52 57)(font "Liberation Sans" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "e14" (rect 0 0 31 14)(font "Liberation Sans" (font_size 8)))
+		(text "e14" (rect 21 59 52 73)(font "Liberation Sans" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "e13" (rect 0 0 31 14)(font "Liberation Sans" (font_size 8)))
+		(text "e13" (rect 21 75 52 89)(font "Liberation Sans" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "e9N" (rect 0 0 31 14)(font "Liberation Sans" (font_size 8)))
+		(text "e9N" (rect 21 91 52 105)(font "Liberation Sans" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "e10N" (rect 0 0 42 14)(font "Liberation Sans" (font_size 8)))
+		(text "e10N" (rect 21 107 63 121)(font "Liberation Sans" (font_size 8)))
+		(line (pt 0 112)(pt 16 112))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "e12" (rect 0 0 31 14)(font "Liberation Sans" (font_size 8)))
+		(text "e12" (rect 21 123 52 137)(font "Liberation Sans" (font_size 8)))
+		(line (pt 0 128)(pt 16 128))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "e11" (rect 0 0 31 14)(font "Liberation Sans" (font_size 8)))
+		(text "e11" (rect 21 139 52 153)(font "Liberation Sans" (font_size 8)))
+		(line (pt 0 144)(pt 16 144))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "CLK" (rect 0 0 31 14)(font "Liberation Sans" (font_size 8)))
+		(text "CLK" (rect 21 155 52 169)(font "Liberation Sans" (font_size 8)))
+		(line (pt 0 160)(pt 16 160))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "CLR" (rect 0 0 31 14)(font "Liberation Sans" (font_size 8)))
+		(text "CLR" (rect 21 171 52 185)(font "Liberation Sans" (font_size 8)))
+		(line (pt 0 176)(pt 16 176))
+	)
+	(port
+		(pt 120 32)
+		(output)
+		(text "s3" (rect 0 0 21 14)(font "Liberation Sans" (font_size 8)))
+		(text "s3" (rect 78 27 99 41)(font "Liberation Sans" (font_size 8)))
+		(line (pt 120 32)(pt 104 32))
+	)
+	(port
+		(pt 120 48)
+		(output)
+		(text "s4" (rect 0 0 21 14)(font "Liberation Sans" (font_size 8)))
+		(text "s4" (rect 78 43 99 57)(font "Liberation Sans" (font_size 8)))
+		(line (pt 120 48)(pt 104 48))
+	)
+	(port
+		(pt 120 64)
+		(output)
+		(text "s5" (rect 0 0 21 14)(font "Liberation Sans" (font_size 8)))
+		(text "s5" (rect 78 59 99 73)(font "Liberation Sans" (font_size 8)))
+		(line (pt 120 64)(pt 104 64))
+	)
+	(port
+		(pt 120 80)
+		(output)
+		(text "s6" (rect 0 0 21 14)(font "Liberation Sans" (font_size 8)))
+		(text "s6" (rect 78 75 99 89)(font "Liberation Sans" (font_size 8)))
+		(line (pt 120 80)(pt 104 80))
+	)
+	(drawing
+		(rectangle (rect 16 16 104 208))
+	)
+)
+(symbol
+	(rect 216 -64 248 -32)
+	(text "GND" (rect 6 8 16 32)(font "Arial" (font_size 6))(vertical))
+	(text "inst2" (rect 0 3 11 44)(font "Liberation Sans" )(vertical)(invisible))
+	(port
+		(pt 32 16)
+		(output)
+		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 20 18 32 23)(font "Courier New" (bold))(vertical)(invisible))
+		(line (pt 24 16)(pt 32 16))
+	)
+	(drawing
+		(line (pt 24 8)(pt 16 16))
+		(line (pt 16 16)(pt 24 24))
+		(line (pt 24 8)(pt 24 24))
+	)
+	(rotate270)
+)
+(symbol
+	(rect -120 72 -88 104)
+	(text "GND" (rect 6 8 16 32)(font "Arial" (font_size 6))(vertical))
+	(text "inst5" (rect 0 3 11 44)(font "Arial" )(vertical)(invisible))
+	(port
+		(pt 32 16)
+		(output)
+		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 20 18 32 23)(font "Courier New" (bold))(vertical)(invisible))
+		(line (pt 24 16)(pt 32 16))
+	)
+	(drawing
+		(line (pt 24 8)(pt 16 16))
+		(line (pt 16 16)(pt 24 24))
+		(line (pt 24 8)(pt 24 24))
+	)
+	(rotate270)
+)
+(connector
+	(pt 80 224)
+	(pt 0 224)
+)
+(connector
+	(pt 0 224)
+	(pt 0 336)
+)
+(connector
+	(pt 344 224)
+	(pt 272 224)
+)
+(connector
+	(pt 272 224)
+	(pt 272 336)
+)
+(connector
+	(pt 272 336)
+	(pt 0 336)
+)
+(connector
+	(pt 24 32)
+	(pt 24 168)
+)
+(connector
+	(pt 24 168)
+	(pt 80 168)
+)
+(connector
+	(pt 80 176)
+	(pt 80 168)
+)
+(connector
+	(pt 80 168)
+	(pt 80 160)
+)
+(connector
+	(pt 272 32)
+	(pt 272 168)
+)
+(connector
+	(pt 8 32)
+	(pt 24 32)
+)
+(connector
+	(pt 24 32)
+	(pt 272 32)
+)
+(connector
+	(pt 272 168)
+	(pt 344 168)
+)
+(connector
+	(pt 344 176)
+	(pt 344 168)
+)
+(connector
+	(pt 344 168)
+	(pt 344 160)
+)
+(connector
+	(text "E_Rs[0]" (rect 298 192 355 203)(font "Liberation Sans" ))
+	(pt 344 208)
+	(pt 288 208)
+)
+(connector
+	(pt 80 88)
+	(pt 80 96)
+)
+(connector
+	(pt 80 96)
+	(pt 80 112)
+)
+(connector
+	(pt 80 240)
+	(pt -48 240)
+)
+(connector
+	(pt -48 240)
+	(pt -48 88)
+)
+(connector
+	(pt 80 88)
+	(pt -48 88)
+)
+(connector
+	(pt -48 88)
+	(pt -88 88)
+)
+(connector
+	(pt 16 8)
+	(pt 64 8)
+	(bus)
+)
+(connector
+	(pt 416 8)
+	(pt 376 8)
+	(bus)
+)
+(connector
+	(text "S_Rs[0]" (rect 464 128 521 139)(font "Liberation Sans" ))
+	(pt 464 144)
+	(pt 512 144)
+)
+(connector
+	(text "S_Rs[1]" (rect 464 112 521 123)(font "Liberation Sans" ))
+	(pt 464 128)
+	(pt 512 128)
+)
+(connector
+	(text "S_Rs[2]" (rect 464 96 521 107)(font "Liberation Sans" ))
+	(pt 464 112)
+	(pt 512 112)
+)
+(connector
+	(text "S_Rs[3]" (rect 464 80 521 91)(font "Liberation Sans" ))
+	(pt 464 96)
+	(pt 512 96)
+)
+(connector
+	(text "S_Rs[4]" (rect 200 128 257 139)(font "Liberation Sans" ))
+	(pt 200 144)
+	(pt 232 144)
+)
+(connector
+	(text "S_Rs[5]" (rect 200 112 257 123)(font "Liberation Sans" ))
+	(pt 200 128)
+	(pt 232 128)
+)
+(connector
+	(text "S_Rs[6]" (rect 200 96 257 107)(font "Liberation Sans" ))
+	(pt 200 112)
+	(pt 232 112)
+)
+(connector
+	(text "S_Rs[7]" (rect 200 80 257 91)(font "Liberation Sans" ))
+	(pt 200 96)
+	(pt 232 96)
+)
+(connector
+	(pt 344 240)
+	(pt 248 240)
+)
+(connector
+	(pt 344 -48)
+	(pt 248 -48)
+)
+(connector
+	(pt 344 -48)
+	(pt 344 96)
+)
+(connector
+	(pt 344 96)
+	(pt 344 112)
+)
+(connector
+	(pt 248 -48)
+	(pt 248 240)
+)
+(connector
+	(text "E_Rs[7]" (rect 32 112 89 123)(font "Liberation Sans" ))
+	(pt 80 128)
+	(pt 32 128)
+)
+(connector
+	(text "E_Rs[6]" (rect 32 128 89 139)(font "Liberation Sans" ))
+	(pt 80 144)
+	(pt 32 144)
+)
+(connector
+	(text "E_Rs[5]" (rect 34 176 91 187)(font "Liberation Sans" ))
+	(pt 80 192)
+	(pt 24 192)
+)
+(connector
+	(text "E_Rs[4]" (rect 34 192 91 203)(font "Liberation Sans" ))
+	(pt 80 208)
+	(pt 24 208)
+)
+(connector
+	(text "E_Rs[1]" (rect 298 176 355 187)(font "Liberation Sans" ))
+	(pt 344 192)
+	(pt 288 192)
+)
+(connector
+	(text "E_Rs[2]" (rect 298 128 355 139)(font "Liberation Sans" ))
+	(pt 344 144)
+	(pt 288 144)
+)
+(connector
+	(text "E_Rs[3]" (rect 298 112 355 123)(font "Liberation Sans" ))
+	(pt 344 128)
+	(pt 288 128)
+)
+(junction (pt 0 336))
+(junction (pt 80 168))
+(junction (pt 24 32))
+(junction (pt 344 168))
+(junction (pt 80 96))
+(junction (pt -48 88))
+(junction (pt 344 96))
